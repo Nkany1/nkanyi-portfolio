@@ -30,11 +30,6 @@ const About = () => {
                                 <li>Redux</li>
                                 <li>NodeJs</li>
                             </ul>
-                            <ul>
-                                <li>Restful API</li>
-                                <li>Jest</li>
-                                <li>cypress</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
