@@ -1,7 +1,6 @@
 import React, { useEffect } from "react"
 import Button from "../components/Button"
 import heroStyles from '../styles/section/Hero.module.css'
-import Social from "../components/Social"
 import { motion } from "framer-motion"
 
 
