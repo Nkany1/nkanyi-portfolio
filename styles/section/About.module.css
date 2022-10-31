@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+}
+
+.aboutme,
+.img {
+    flex: 1;
+}
+
+.heading {
+    display: flex;
+    width: 100%;
+}
+
+.heading hr {
+    display: inline;
+}
+
+.stack {
+    display: flex;
+}
+
+.stack li{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.stack ul {
+    list-style-type: square;
+}
+
+.stackList {
+    margin-right: 3rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImg {
+    border-radius: 5px;
+}
+
+.desc p{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .img {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .stackList {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .stackList {
+        margin-right: 0.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .stack ul {
+        margin-right: 0;
+    }
+
+    .stackList {
+        padding-left: 10px;
+    }
+}

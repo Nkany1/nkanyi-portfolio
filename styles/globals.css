@@ -1,9 +1,37 @@
+:root {
+  --body-color: #222831;
+  --text-color: #fff;
+
+  --btn-border: #ffd369;
+  --btn-hover: #ffd369;
+
+  --heading: #eeeeee;
+  --rule: #ffd369;
+  --hover: #393e46;
+
+  --defaultText: 16px;
+  --btnText: 14px;
+  --largeText: 18px;
+  --extraLargeText: 25px;
+  --litleHeading: 30px;
+  --heading: 35px;
+  --xxLargeText: 80px;
+  --xxLarge: 70px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--body-color);
+  color: var(--text-color);
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: var(--largeText);
+  font-family: 'Inter', sans-serif;
+
 }
 
 a {
@@ -19,8 +47,13 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
-    color: white;
-    background: black;
+    color: var(--text-color);
+    background: var(--background-dark);
   }
+}
+
+section {
+  margin: 0 0 8rem 0;
 }

@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.crafted{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.socialIcon{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Linkein{
+    margin: 15px;
+    cursor: pointer;
+}
+
+.Github{
+    margin: 15px;
+    cursor: pointer;
+}
